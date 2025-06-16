@@ -1,6 +1,6 @@
-# 🧪 Testes de Software - IFPB | Campina Grande
+# 🧪 Testes de Software - IFPE
 
-Este repositório reúne tudo o que estudei e desenvolvi durante a disciplina de **Testes de Software** no curso de **Análise e Desenvolvimento de Sistemas (ADS)** do **IFPB - Campus Campina Grande**.
+Este repositório reúne tudo o que estudei e desenvolvi durante a disciplina de **Testes de Software** no curso de **Análise e Desenvolvimento de Sistemas (ADS)** do **IFPE**.
 
 A ideia é organizar os conteúdos por **tipo de teste** e **ordem das aulas**, com exemplos práticos, anotações, exercícios e o projeto final.
 
