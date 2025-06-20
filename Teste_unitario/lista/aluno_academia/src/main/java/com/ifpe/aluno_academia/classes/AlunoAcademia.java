@@ -16,21 +16,29 @@ public class AlunoAcademia {
     private double altura;
     private int idade;
 
-    public double calculoImc(){
-        return peso/(altura * altura);
-  
+    public double calculoImc() {
+
+        if(altura <= 0){
+            throw new ArithmeticException("Altura invalida");
+        }
+        
+        double imc = peso / (altura * altura);
+
+        return Math.round(imc * 100.0) / 100.0;
     }
 
     public boolean VIP() {
-    double imc = calculoImc();
+        double imc = calculoImc();
 
-    if (sexo == Sexo.MASCULINO) {
-        return (idade >= 40 && imc < 30) || (idade < 40 && imc < 28);
-    } else if (sexo == Sexo.FEMININO) {
-        return (idade >= 40 && imc < 28) || (idade < 40 && imc < 26);
+        if (sexo == Sexo.MASCULINO) {
+            return (idade >= 40 && imc < 30) || (idade < 40 && imc < 28);
+
+        } else if (sexo == Sexo.FEMININO) {
+            return (idade >= 40 && imc < 28) || (idade < 40 && imc < 26);
+
+        }
+        
+        return false;
     }
-    return false;
-}
-
 
 }
