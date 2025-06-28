@@ -23,7 +23,8 @@ public class Investidor {
 
     public double converterParaReal() {
         if (valorInvestimento > 0) {
-            return valorInvestimento * 5;
+            double valor = valorInvestimento * 5;
+            return Math.round(valor * 100.0) / 100.0;
         }
         return 0;
     }
@@ -31,7 +32,8 @@ public class Investidor {
     public double realizarTransacao() {
         if (investidorDeMaior()) {
             double valorConvertido = converterParaReal();
-            return valorConvertido - 10;
+            valorConvertido -= 10;
+            return Math.round((valorConvertido * 100.0) / 100.0);
         }
 
         System.out.println("Menores de idade não podem transferir!");
