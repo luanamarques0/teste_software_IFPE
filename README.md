@@ -32,7 +32,9 @@ Durante a disciplina, aprendi a:
 │ ├── oficina/ # Projeto da oficina com múltiplas classes e testes
 
 ##  Considerações Finais
+
 Este repositório serve como um **diário de aprendizado**, registrando o progresso ao longo da disciplina. Qualquer contribuição, dúvida ou sugestão é bem-vinda!
+
 
 📝 **Autor:** Luana Marques
 📅 **Data_Inicio:** 06/2025
