@@ -17,7 +17,7 @@ public class Gestao {
         for (Produto p : pedido.exibirListaProdutos()) {
             total += p.getPreco();
         }
-        // System.out.println(total);
+
         return total;
     }
 

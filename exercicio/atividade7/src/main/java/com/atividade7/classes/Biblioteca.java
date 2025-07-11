@@ -24,7 +24,8 @@ public class Biblioteca {
     }
 
     public boolean patrimonioHistorico() {
-        return anoFundacao < 1980;
+        // return anoFundacao < 1980;
+        return anoFundacao < 1950; //Exercicio 8
     }
 
     public void acrescentarLivro(Livro livro) {
@@ -44,6 +45,4 @@ public class Biblioteca {
                 .filter(Livro::verificarLancamento)
                 .count() >= 5;
     }
-
-
 }

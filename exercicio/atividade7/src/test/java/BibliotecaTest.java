@@ -10,7 +10,8 @@ public class BibliotecaTest {
 
     @Test
     public void testPatrimonioHistorico() {
-        Biblioteca central = new Biblioteca("Central", "00.000.000/0001-00", 1975);
+        // Biblioteca central = new Biblioteca("Central", "00.000.000/0001-00", 1975);
+        Biblioteca central = new Biblioteca("Central", "00.000.000/0001-00", 1949); //Exercicio 8
         Biblioteca moderna = new Biblioteca("Moderna", "11.111.111/0001-11", 2000);
 
         assertTrue(central.patrimonioHistorico());

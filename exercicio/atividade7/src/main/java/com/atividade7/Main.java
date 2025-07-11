@@ -19,13 +19,13 @@ public class Main {
         // }
 
         //Q2
-        Produto prod1 = new Produto("café", 17.50);
-        Produto prod2 = new Produto("Arroz", 8.20);
-        Pedidos pedidos = new Pedidos();
-        pedidos.adicionarProduto(prod2);
-        pedidos.adicionarProduto(prod1);
+        // Produto prod1 = new Produto("café", 17.50);
+        // Produto prod2 = new Produto("Arroz", 8.20);
+        // Pedidos pedidos = new Pedidos();
+        // pedidos.adicionarProduto(prod2);
+        // pedidos.adicionarProduto(prod1);
 
-        Gestao gestao = new Gestao(pedidos);
-        gestao.valorTotalVendas();
+        // Gestao gestao = new Gestao(pedidos);
+        // gestao.valorTotalVendas();
     }
 }
