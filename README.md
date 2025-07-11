@@ -19,6 +19,7 @@ Durante a disciplina, aprendi a:
 
 ##  Como o repositório está organizado
 
+```
 ├── Testes_unitarios/
 │ ├── lista/
 │ │ ├── aluno_academia/ # Testes relacionados à academia
@@ -30,6 +31,7 @@ Durante a disciplina, aprendi a:
 │ ├── atividade7/ # Exercício sobre pedidos e produtos
 │ ├── atividade8/
 │ ├── oficina/ # Projeto da oficina com múltiplas classes e testes
+```
 
 ##  Considerações Finais
 
