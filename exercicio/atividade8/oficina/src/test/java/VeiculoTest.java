@@ -13,8 +13,14 @@ public class VeiculoTest {
         Veiculo popular = new Veiculo("GHI-9012", TipoCarro.POPULAR, 0, 2022);
         Veiculo extra = new Veiculo("JKL-3456", null, 7, 2017);
 
-        assertEquals(2024, suv.calcularGarantia());
-        assertEquals(2025, pickup.calcularGarantia());
+        // assertEquals(2024, suv.calcularGarantia());
+        // assertEquals(2025, pickup.calcularGarantia());
+        // assertEquals(2024, popular.calcularGarantia());
+        // assertEquals(0, extra.calcularGarantia());
+
+        // Letra F
+        assertEquals(2023, suv.calcularGarantia());
+        assertEquals(2022, pickup.calcularGarantia());
         assertEquals(2024, popular.calcularGarantia());
         assertEquals(0, extra.calcularGarantia());
     }

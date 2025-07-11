@@ -25,7 +25,6 @@ public class MecanicoTest {
     public void testFalsoFuncionarioPremium() {
         List<String> especialidades = new ArrayList<>();
         especialidades.add("Suspensão");
-        especialidades.add("Freios");
 
         Mecanico mecanico = new Mecanico("123", "João da Oficina", especialidades);
 
