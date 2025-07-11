@@ -68,30 +68,6 @@ Criar as classes **Produto**, **Pedido** e **Gestão**, implementando funcionali
 
 ---
 
-## Considerações
-
-Este projeto serve para fixar os conceitos de:
-
-- Criação de classes Java com atributos, métodos e construtores.
-- Implementação de lógica de negócio em métodos específicos.
-- Criação de testes unitários e de integração usando JUnit.
-- Análise e tratamento de possíveis erros e cenários de uso atípicos.
-
----
-
-## Como usar
-
-1. Clone o repositório.
-2. Importe o projeto na sua IDE favorita (Eclipse, IntelliJ, VSCode).
-3. Execute os testes JUnit localizados nas classes `LivroTest`, `BibliotecaTest` e `GestaoTest`.
-4. Analise os resultados e veja os comentários sobre os ajustes feitos após os testes.
-
----
-
-Se tiver dúvidas ou sugestões, fique à vontade para abrir uma issue.
-
----
-
 **Autor:** Luana Marques
 **Data:** 07/2025
 
