@@ -6,7 +6,7 @@ A ideia é organizar os conteúdos por **tipo de teste** e **ordem das aulas**, 
 
 ---
 
-## 🎯 Sobre a Disciplina
+##  Sobre a Disciplina
 
 Durante a disciplina, aprendi a: 
 
@@ -19,12 +19,12 @@ Durante a disciplina, aprendi a:
 (Alguns pontos podem estar em andamento)
 ---
 
-## 🗂️ Como o repositório está organizado
+##  Como o repositório está organizado
 
 Os arquivos estão divididos por tipo de teste e tema, seguindo o conteúdo que foi passado em sala:
 ├── TestesUnitarios/ → Testes com JUnit
 
-## 📌 Considerações Finais
+##  Considerações Finais
 Este repositório serve como um **diário de aprendizado**, registrando o progresso ao longo da disciplina. Qualquer contribuição, dúvida ou sugestão é bem-vinda! 🚀
 
 📝 **Autor:** Luana Marques
