@@ -20,6 +20,7 @@ public class Mecanico {
     }
 
     public boolean funcionarioPremium() {
-        return especialidades.size() > 2;
+        // return especialidades.size() > 2;
+        return especialidades.size() > 1; //letra F
     }
 }

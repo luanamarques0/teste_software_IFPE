@@ -19,18 +19,20 @@ public class Veiculo {
         if (tipo == null)
             return 0;
 
-        int anosGarantia;
+        // int anosGarantia;
 
-        switch (tipo) {
-            case SUV -> anosGarantia = 3;
-            case PICKUP -> anosGarantia = 5;
-            case POPULAR -> anosGarantia = 2;
-            default -> {
-                return 0;
-            }
-        }
+        // switch (tipo) {
+        //     case SUV -> anosGarantia = 3;
+        //     case PICKUP -> anosGarantia = 5;
+        //     case POPULAR -> anosGarantia = 2;
+        //     default -> {
+        //         return 0;
+        //     }
+        // }
 
-        return anoFabricacao + anosGarantia;
+        // return anoFabricacao + anosGarantia;
+
+        return anoFabricacao + 2; //Letra F
     }
 
 }
